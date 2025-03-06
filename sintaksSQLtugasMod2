@@ -22,18 +22,15 @@ CREATE TABLE IRS (
     FOREIGN KEY (NIM) REFERENCES Mahasiswa(NIM)
 );
 
-INSERT INTO Mahasiswa (NIM, NAMA, ANGKATAN, GENDER) VALUES
-('21120122130065', 'Finodya Yahdun', '2022', 'pria'),
-('21120122130078', 'Imam Baaihaqqy', '2022', 'pria'),
-('21120122130062', 'Verry Kurniawan', '2022', 'pria'),
-('21120122140138', 'Lucky Barga Aretama', '2022', 'pria');
+INSERT INTO Mahasiswa (NIM, NAMA, ANGKATAN, GENDER) VALUES ('21120122130065', 'Finodya Yahdun', '2022', 'pria');
+INSERT INTO Mahasiswa (NIM, NAMA, ANGKATAN, GENDER) VALUES ('21120122130078', 'Imam Baaihaqqy', '2022', 'pria');
+INSERT INTO Mahasiswa (NIM, NAMA, ANGKATAN, GENDER) VALUES ('21120122130062', 'Verry Kurniawan', '2022', 'pria');
+INSERT INTO Mahasiswa (NIM, NAMA, ANGKATAN, GENDER) VALUES ('21120122140138', 'Lucky Barga Aretama', '2022', 'pria');
 
-INSERT INTO MataKuliah (MATKUL_ID, MATKUL_NAMA, SKS, HARI) VALUES
-('MK201', 'Sistem Basis Data', 2, 'Senin'),
-('MK202', 'Pemrograman Berorientasi Objek', 3, 'Selasa'),
-('MK203', 'Praktikum Sistem Basis Data', 1, 'Minggu');
+INSERT INTO MataKuliah (MATKUL_ID, MATKUL_NAMA, SKS, HARI) VALUES ('MK201', 'Sistem Basis Data', 2, 'Senin');
+INSERT INTO MataKuliah (MATKUL_ID, MATKUL_NAMA, SKS, HARI) VALUES ('MK202', 'Pemrograman Berorientasi Objek', 3, 'Selasa');
+INSERT INTO MataKuliah (MATKUL_ID, MATKUL_NAMA, SKS, HARI) VALUES ('MK203', 'Praktikum Sistem Basis Data', 1, 'Minggu');
 
-INSERT INTO IRS (IRS_ID, MATKUL_ID, NIM, STATUS) VALUES
-('IRS001', 'MK202', '21120122140138', 'lulus'),
-('IRS002', 'MK201', '21120122130078', 'gagal'),
-('IRS003', 'MK202', '21120122130062', 'lulus');
+INSERT INTO IRS (IRS_ID, MATKUL_ID, NIM, STATUS) VALUES ('IRS001', 'MK202', '21120122140138', 'lulus');
+INSERT INTO IRS (IRS_ID, MATKUL_ID, NIM, STATUS) VALUES ('IRS002', 'MK201', '21120122130078', 'gagal');
+INSERT INTO IRS (IRS_ID, MATKUL_ID, NIM, STATUS) VALUES ('IRS003', 'MK202', '21120122130062', 'lulus');
